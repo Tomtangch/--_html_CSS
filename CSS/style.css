@@ -1,0 +1,889 @@
+@import url(reset.css);
+
+body {
+    background-color: #F1F2F6;
+    font-family: sans-serif;
+    color: #223B86;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* ------------------------------Header-------------------------------------- */
+header {}
+
+/* topBar */
+.topBar {
+    background-color: #8893BD;
+    width: 100%;
+    height: 44px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+/* topBarLeft */
+.topBar .topBarLeft {
+    display: flex;
+    margin: 10px;
+    margin-right: 1200px;
+    margin-left: 20px;
+
+}
+
+.topBar .topBarLeft li {}
+
+.topBar .topBarLeft a {}
+
+.topBar .topBarLeft i {
+    color: white;
+    font-size: 24px;
+    padding-right: 20px;
+
+}
+
+/* topBarRight */
+.topBar .topBarRight {
+    display: flex;
+    margin: 10px;
+}
+
+.topBar .topBarRight li {}
+
+.topBar .topBarRight a {}
+
+.topBar .topBarRight i {
+    color: white;
+    font-size: 24px;
+    padding-right: 10px;
+}
+
+/* ------------------------------homePageSection-------------------------------------- */
+section {}
+
+/* ------------------------------homePageNav-------------------------------------- */
+.wrapperNav {
+    width: 778px;
+    margin: 10px auto 0;
+    border-bottom: 1px solid #666;
+}
+
+.navBox {}
+
+.navBox a img {
+    width: 215px;
+    margin: 0 250px;
+}
+
+.navBox ul {
+    display: flex;
+}
+
+.navBox ul li {
+    padding: 32px;
+
+
+
+}
+
+.navBox ul li a {
+    text-decoration: none;
+    color: #223B86;
+}
+
+/* ------------------------------homePageMain-------------------------------------- */
+.main {
+    margin-top: 50px;
+    /* border: 1px solid red; */
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+.main .mainTop {
+    background-image: url(../img/index_main_bg_1.jpeg);
+    background-repeat: no-repeat;
+    opacity: 75%;
+    width: 1440px;
+    height: 811px;
+    margin: 0 auto;
+    margin-left: 210px;
+    position: relative;
+}
+
+.main .brandSlogan {
+    height: 144px;
+    width: 557px;
+    background-color: #F1F2F6;
+    text-align: center;
+    line-height: 72px;
+    position: absolute;
+    left: 260px;
+    top: 260px;
+}
+
+.main .brandSlogan h1 {
+    font-size: 28px;
+}
+
+.main .brandSlogan h2 {
+    font-size: 28px;
+}
+
+.main .whiteBox {
+    width: 1000px;
+    height: 186px;
+    background-color: #fff;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    bottom: 0;
+}
+
+/* ------------------------------homePageTop-------------------------------------- */
+
+.wrapperTop {
+    width: 1440px;
+    height: 1186px;
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+.wrapperBackground {
+    width: 936px;
+    height: 718px;
+    background-color: #8893BD;
+    position: relative;
+}
+
+.wrapperBackground .chrctrBox {
+    background-color: #F1F2F6;
+    width: 854px;
+    height: 310px;
+    text-align: left;
+    position: absolute;
+    right: 0px;
+    top: 155px;
+    line-height: 310px;
+
+    /* border: 1px solid red; */
+}
+
+.wrapperBackground .chrctrBox h3 {
+    font-size: 24px;
+    line-height: 72px;
+    margin: 50px 50px 0 50px;
+}
+
+.wrapperBackground .chrctrBox p {
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 200px;
+    margin-left: 50px;
+}
+
+.wrapperTop .wrapperTopDownPic {
+    margin-top: 718px;
+    display: flex;
+}
+
+.wrapperTop .wrapperTopDownPic ul {
+    width: 468px;
+    height: 468px;
+}
+
+.wrapperTop .wrapperTopDownPic img {
+    width: 468px;
+    height: 468px;
+
+}
+
+.wrapperTop .wrapperTopSidePic {
+
+
+    /* right: 0;
+    top: 0; */
+}
+
+.wrapperTop .wrapperTopSidePic img {}
+
+/* ------------------------------homePageMiddle-------------------------------------- */
+.wrapperMiddle {
+    width: 1440px;
+    height: 1162px;
+    display: flex;
+    position: relative;
+}
+
+.wrapperMiddle img {
+    display: block;
+    width: 1098px;
+    height: 823px;
+
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    z-index: 2;
+
+
+
+}
+
+.wrapperMiddle .middlebgd {
+    width: 1098px;
+    height: 823px;
+
+    position: absolute;
+
+    background-color: #8893BD;
+    z-index: 1;
+    right: 100px;
+    bottom: 100px;
+
+}
+
+/* ------------------------------homePageBottom-------------------------------------- */
+.wrapperBottom {
+    width: 1440px;
+    height: 1436px;
+    position: relative;
+
+}
+
+.wrapperBottom ul {
+    display: flex;
+    position: absolute;
+
+    flex-wrap: wrap;
+    flex-direction: row;
+
+
+}
+
+.wrapperBottom ul li {
+    margin: 0 5px 10px;
+
+}
+
+.wrapperBottom ul li {}
+
+.wrapperBottom li a:hover {}
+
+.wrapperBottom li a img {
+    display: block;
+    width: 709px;
+    height: 709px;
+
+
+}
+
+.wrapperBottom li a img:hover {}
+
+/* ------------------------------Footer-------------------------------------- */
+footer {
+    background-color: #F1F2F6;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.footerInformation {
+    border-top: 1px solid #666;
+    width: 1040px;
+    /* margin: 0 auto; */
+    display: flex;
+    padding: 50px 200px 0;
+}
+
+/* img */
+.footerPic {}
+
+.footerPic img {
+    width: 215px;
+    padding-right: 88px;
+}
+
+/* listOne */
+footer .listOne {
+    padding-right: 44px;
+}
+
+footer .listOne li {
+    margin-bottom: 40px;
+}
+
+footer .listOne li a {
+    text-decoration: none;
+    color: #223B86;
+}
+
+/* listTwo */
+footer .listTwo {
+    padding-right: 72px;
+}
+
+footer .listTwo li {
+    margin-bottom: 40px;
+}
+
+footer .listTwo li a {
+    text-decoration: none;
+    color: #223B86;
+}
+
+/* contact */
+footer .contact {
+    padding-right: 80px;
+}
+
+footer .contact li {
+    margin-bottom: 40px;
+}
+
+footer .contact li a {
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #223B86;
+}
+
+footer .contact li i {}
+
+/* footerBarRight */
+footer .footerBarRight {
+    display: flex;
+}
+
+footer .footerBarRight li {
+    padding-right: 16px;
+}
+
+footer .footerBarRight li a {
+    color: #223B86;
+}
+
+footer .footerBarRight li a i {}
+
+.copyright {}
+
+.copyright p {
+    text-align: center;
+}
+
+.copyright p a {
+    color: #223B86;
+}
+
+
+
+
+/* ------------------------------collection-------------------------------------- */
+
+/* ------------------------------pagePosition-------------------------------------- */
+.pagePosition {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.pagePosition h1 {
+    font-size: 28px;
+}
+
+/* ------------------------------productSellection-------------------------------------- */
+.productSellection {
+    /* width: 1440px; */
+    /* display: flex; */
+}
+
+.productSellection ul {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.productSellection li {}
+
+.productSellection li i {
+    padding: 0 10px;
+}
+
+/* ------------------------------productOption-------------------------------------- */
+.productOption {
+    width: 1067px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+
+}
+
+.productOption ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.productOption ul li {
+    width: 273px;
+    margin: 30px;
+    background-color: #8893BD;
+}
+
+
+.productOption li img {
+    width: 273px;
+}
+
+.productOption li h3 {
+    margin: 24px 0 12px 12px;
+}
+
+.productOption li p {
+    color: #223B86;
+    margin: 0 0 24px 12px;
+}
+
+/* ------------------------------pageLocation-------------------------------------- */
+.pageLocation {
+    margin-top: 50px;
+    /* border: 1px solid red; */
+}
+
+.pageLocation p {
+    text-align: center;
+}
+
+/* ------------------------------productPage-------------------------------------- */
+/* ------------------------------productPageTop-------------------------------------- */
+/* ----productPageLeft---- */
+.productPageTop {
+    width: 1255px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+}
+
+.productPageTop .productPageLeft {}
+
+.productPageTop .productPageLeft img {
+    width: 558px;
+    height: 558px;
+    margin-bottom: 20px;
+}
+
+.productPageTop .productPageLeft ul {
+    display: flex;
+}
+
+.productPageTop .productPageLeft li {
+    padding-right: 28px;
+    overflow: hidden;
+}
+
+.productPageTop .productPageLeft li img {
+    width: 119px;
+    height: 119px;
+}
+
+/* ----productPageRight---- */
+.productPageRight {
+    background-color: #8893BD;
+    width: 637px;
+    padding: 20px;
+
+}
+
+.productPageRight h2 {
+    font-size: 18px;
+    font-style: bold;
+    padding-bottom: 4px;
+}
+
+.productPageRight p {
+    padding-bottom: 50px;
+}
+
+.productPageRight .selectChart {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+
+
+}
+
+.productPageRight select {
+    font-size: 16px;
+    padding: 4px 24px 4px 10px;
+    background-color: #8893BD;
+    border-color: #223B86;
+    padding-left: 50px;
+    margin: 40px;
+
+}
+
+.productPageRight select option {
+    font-size: 16px;
+}
+
+.productDescription {}
+
+.productDescription p {
+    margin-top: 30px;
+
+}
+
+.productDescription .productBottomOne {
+    width: 309px;
+    height: 68px;
+    background-color: #223B86;
+    border: none;
+    font-size: 16px;
+    color: #FCF1E0;
+}
+
+.productDescription .productBottomTwo {
+    width: 309px;
+    height: 68px;
+    background-color: #FCF1E0;
+    border: none;
+    font-size: 16px;
+    color: #223B86;
+}
+
+.productDescription button {
+    cursor: pointer;
+}
+
+/* ----productPageBottom---- */
+.productPageBottom {
+    width: 1255px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.productPageBottom h3 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+
+.productPageBottom ul {
+    display: flex;
+}
+
+.productPageBottom ul li {
+    padding-right: 40px;
+    margin: 0 auto;
+}
+
+.productPageBottom li img {
+    width: 311px;
+    height: 311px;
+}
+
+.productPageBottom li p {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* ------------------------------cartPage01-------------------------------------- */
+/* ----stepProcess---- */
+.stepProcess {
+    width: 594px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.stepProcess ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+.stepProcess ul li {
+    padding: 0 140px;
+
+}
+
+.stepProcess .choose {}
+
+.stepProcess .choose .up {
+    background-color: #223B86;
+    width: 88px;
+    height: 88px;
+    border-radius: 90%;
+    color: #F1F2F6;
+    text-align: center;
+    line-height: 88px;
+    font-size: 16px;
+}
+
+.stepProcess .choose .down {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.stepProcess .others {}
+
+.stepProcess .others .up {
+    background-color: #8893BD;
+    width: 88px;
+    height: 88px;
+    border-radius: 90%;
+    color: #F1F2F6;
+    text-align: center;
+    line-height: 88px;
+    font-size: 16px;
+    color: #223B86;
+}
+
+.stepProcess .others .down {
+    text-align: center;
+    margin-top: 10px;
+    color: #8893BD;
+}
+
+/* ----cartCheck---- */
+.cartCheck {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.cartCheck p {
+    font-size: 22px;
+}
+
+.cartCheck ul {
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.cartCheck ul li {
+    padding-right: 200px;
+    border-bottom: 1px #666 solid;
+    padding-bottom: 20px;
+}
+
+
+/* ----productPurchases---- */
+.productPurchase {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.productPurchase img {
+    width: 74px;
+    height: 74px;
+}
+
+.productPurchase .productContent {}
+
+.productPurchase .productContent .productName {
+    color: #223B86;
+}
+
+.productPurchase .productContent .productInf {
+    color: #B0B0B0;
+}
+
+.productAccount {
+
+    margin-top: 150px;
+    width: 267px;
+    height: 43px;
+    border-top: 1px solid #666;
+    margin-left: 150px;
+    padding-top: 20px;
+
+
+}
+
+/* ----payingMethod---- */
+.payingMethod {
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.payingMethod p {
+    font-size: 22px;
+}
+
+.payingMethod ul {
+    display: flex;
+    margin-top: 16px;
+}
+
+.payingMethod li {
+    /* border: 1px solid #223B86; */
+    padding: 4px;
+    margin-right: 20px;
+}
+
+.payingMethod ul li a {
+    border: 1px solid #223B86;
+    padding: 5px;
+    text-decoration: none;
+    color: #223B86;
+}
+
+.payingMethod ul li a:hover {
+    background-color: #223B86;
+    color: #FCF1E0;
+    padding: 5px;
+    text-decoration: none;
+
+
+}
+
+
+/* ----checkButton---- */
+.checkButton {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.checkButton a {
+    text-decoration: none;
+    display: inline-block;
+    width: 248px;
+    height: 87px;
+    line-height: 87px;
+    color: #FCF1E0;
+    background-color: #8893BD;
+
+}
+
+.checkButton a:hover {
+    text-decoration: none;
+    display: inline-block;
+    width: 248px;
+    height: 87px;
+    line-height: 87px;
+    color: #FCF1E0;
+    background-color: #223B86;
+
+}
+
+/* ------------------------------cartPage02-------------------------------------- */
+/* ----customerInf---- */
+.customerInf {
+    width: 821px;
+    /* height: 512px; */
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.customerInf ul {}
+
+.customerInf li {
+    margin-bottom: 20px;
+}
+
+.customerInf li p {}
+
+.customerInf li input {
+    width: 821px;
+    height: 30px;
+    color: #FCF1E0;
+    font-size: 16px;
+    background-color: #8893BD;
+    border-style: none;
+    padding-left: 8px;
+
+}
+
+.customerInf li input::placeholder {
+    color: #F1F2F6;
+}
+
+/* ------------------------------cartPage03-------------------------------------- */
+/* ------ infCheck ------ */
+.infCheck {
+    margin-top: 50px;
+    margin-left: 150px;
+
+}
+
+.infCheck h3 {
+    font-size: 22px;
+}
+
+.infCheck p {
+    margin-top: 20px;
+    line-height: 1.2;
+
+}
+
+/* ------------------------------cartPage03-------------------------------------- */
+/* ------ orderSuccess ------ */
+.orderSuccess {
+    margin-top: 50px;
+
+}
+
+.orderSuccess img {
+    margin-top: 50px;
+    display: block;
+    width: 455px;
+    height: 455px;
+    margin: 0 auto;
+}
+
+.orderSuccess p {
+    text-align: center;
+    margin-top: 128px;
+}
+
+/* ------------------------------logInPage-------------------------------------- */
+.forgetPassword {
+    width: 821px;
+    text-align: right;
+    margin: 0 auto;
+}
+
+.forgetPassword a {
+    display: inline-block;
+}
+
+/* ------------------------------brandSpiritPage-------------------------------------- */
+
+.brandSpiritPage {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 1044px;
+
+}
+
+.brandSpiritPage p {
+    margin-top: 50px;
+    width: 836px;
+
+    font-size: 22px;
+    margin: 0 auto;
+    line-height: 1.6;
+    background-color: #F1F2F6;
+    padding: 50px 20px;
+    /* border: 1px solid red; */
+}
+
+/* ------------------------------contactUsPage-------------------------------------- */
+.contactUsPage {
+    width: 1440px;
+    margin-top: 50px;
+
+}
+
+.contactUsPage ul {}
+
+.contactUsPage ul li {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contactUsPage ul a {
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #223B86;
+    font-size: 22px;
+}
+
+.contactUsPage ul i {
+    font-size: 22px;
+}
